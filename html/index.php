@@ -17,23 +17,15 @@
       src="https://kit.fontawesome.com/472910ecc6.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="../css/style.css?v=1" />
     <script src="/" defer></script>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><img src="/assets/vistilogo.png" alt="" /></li>
-        <li><a href="">Oplevelser</a></li>
-        <li><a href="">Overnatning</a></li>
-        <li><a href="">Mad & Drikke</a></li>
-        <li><a href="">Events</a></li>
-        <li><a href="">Planlæg din tur</a></li>
-        <li>
-          <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-        </li>
-      </ul>
-    </nav>
+    
+ <?php
+require('../Temp/nav.html');
+?>
+
     <div class="content">
       <div class="gallery">
         <div class="box1 boxes">
@@ -156,7 +148,7 @@
             </div>
             <div class="begivenheder-img">
               <img
-                src="/VisitKolding/Billedmateriale//Foreningsliv/mountainbike.jpg"
+                src="../VisitKolding/Billedmateriale//Foreningsliv/mountainbike.jpg"
                 alt=""
               />
             </div>
@@ -186,7 +178,7 @@
             </div>
             <div class="begivenheder-img">
               <img
-                src="/VisitKolding/Billedmateriale/mediegrafiker.jpg"
+                src="../VisitKolding/Billedmateriale/mediegrafiker.jpg"
                 alt=""
               />
             </div>
@@ -215,7 +207,7 @@
               </p>
             </div>
             <div class="begivenheder-img">
-              <img src="/VisitKolding/Billedmateriale/bar.jpg" alt="" />
+              <img src="../VisitKolding/Billedmateriale/bar.jpg" alt="" />
             </div>
           </article>
         </div>
@@ -235,35 +227,35 @@
         </div>
         <div class="udforsk-right">
           <article>
-            <img src="/VisitKolding/Billedmateriale/banega╠èrd2.jpg" alt="" />
+            <img src="../VisitKolding/Billedmateriale/banega╠èrd2.jpg" alt="" />
             <h2>Historie & Kultur</h2>
           </article>
 
           <article>
-            <img src="/VisitKolding/Billedmateriale/cafe2.jpg" alt="" />
+            <img src="../VisitKolding/Billedmateriale/cafe2.jpg" alt="" />
             <h2>For voksne</h2>
           </article>
 
           <article>
             <img
-              src="/VisitKolding/Billedmateriale/Foreningsliv/mountainbike2.jpg"
+              src="../VisitKolding/Billedmateriale/Foreningsliv/mountainbike2.jpg"
               alt=""
             />
             <h2>Natur</h2>
           </article>
 
           <article>
-            <img src="/VisitKolding/Billedmateriale/legeplads2.jpg" alt="" />
+            <img src="../VisitKolding/Billedmateriale/legeplads2.jpg" alt="" />
             <h2>For børn</h2>
           </article>
 
           <article>
-            <img src="/VisitKolding/Billedmateriale/kunst2.jpg" alt="" />
+            <img src="../VisitKolding/Billedmateriale/kunst2.jpg" alt="" />
             <h2>Design</h2>
           </article>
 
           <article>
-            <img src="/VisitKolding/Billedmateriale/shopping1.jpg" alt="" />
+            <img src="../VisitKolding/Billedmateriale/shopping1.jpg" alt="" />
             <h2>Shopping</h2>
           </article>
         </div>
@@ -280,64 +272,9 @@
         ></iframe>
       </div>
     </div>
-    <footer>
-      <div class="darkgraysection">
-        <h2>Følg os på</h2>
-        <ul>
-          <li>
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-          </li>
-        </ul>
-      </div>
+    <?php
+require('../Temp/footeraddress.html');
+?>
 
-      <div class="lightgraysection">
-        <div class="lightgrayleft">
-          <h2>VisitKolding</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        <div class="lightgrayright">
-          <ul class="lightgrayui">
-            <h4>Nyttige Links</h4>
-            <li>Link1</li>
-            <li>Link2</li>
-            <li>Link3</li>
-            <li>Link4</li>
-          </ul>
-          <ul class="lightgrayui">
-            <h4>Nyttige Links</h4>
-            <li>Link1</li>
-            <li>Link2</li>
-            <li>Link3</li>
-            <li>Link4</li>
-          </ul>
-          <ul class="lightgrayui">
-            <h4>Nyttige Links</h4>
-            <li>Link1</li>
-            <li>Link2</li>
-            <li>Link3</li>
-            <li>Link4</li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-    <address>
-      <ul>
-        <li>&copy 2021 VisitKolding All Rights Reserved.</li>
-        <li>Privacy policy</li>
-        <li>Terms og Service</li>
-      </ul>
-    </address>
   </body>
 </html>
