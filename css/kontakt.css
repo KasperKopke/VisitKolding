@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+nav ul {
+  display: flex;
+  flex: 1;
+  padding: 10px 30px 10px 30px;
+  gap: 20px;
+  list-style-type: none;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+nav ul li:first-child {
+  margin-right: auto;
+  margin-left: 145px;
+}
+nav ul li:nth-child(6) {
+  margin-right: 110px;
+}
+nav ul li:last-child {
+  margin-right: auto;
+}
+nav ul li img {
+  width: 260px;
+}
+.darkgraysection {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #6c6c6c;
+  padding: 70px;
+}
+.darkgraysection ul {
+  display: flex;
+  gap: 45px;
+  list-style-type: none;
+}
+.darkgraysection h2 {
+  color: white;
+  margin-right: 120px;
+  font-size: 25px;
+}
+.darkgraysection ul li a {
+  font-size: 40px;
+  color: black;
+}
+.lightgrayui {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 25px;
+}
+.lightgrayright {
+  display: flex;
+  gap: 80px;
+}
+.lightgraysection {
+  display: flex;
+  background-color: #d0d0d0;
+  padding: 50px;
+  align-items: center;
+}
+.lightgrayleft p {
+  max-width: 40%;
+}
+
+address ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+  padding: 25px;
+}
+
+address ul li:first-child {
+  margin-right: auto;
+}
+address {
+  background-color: #ebebeb;
+  font-style: normal;
+}
+
+.header-top {
+  height: 500px;
+  background-image: url(/VisitKolding/Billedmateriale/mølle.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.historie-text {
+  position: absolute;
+  bottom: 40px;
+  left: 170px;
+  background-color: white;
+  padding: 30px 200px 30px 20px;
+}
+.historie-text h2 {
+  font-size: 35px;
+}
+.header-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0;
+}
+.header-bottom p {
+  max-width: 50%;
+  font-size: 22px;
+}
