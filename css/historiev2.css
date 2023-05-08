@@ -122,39 +122,34 @@ address {
   max-width: 50%;
   font-size: 22px;
 }
-.picture-wrapper {
+.column-section {
+  background-color: #2c2c2c;
+  color: white;
+  column-count: 3;
+  column-width: 300px;
+  column-gap: 80px;
+  padding: 3% 8%;
+}
+.picture-and-text-section {
+  padding: 3% 9%;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
 }
-.reverse {
-  display: flex;
-  justify-content: center;
-  flex-direction: row-reverse;
-}
-.picture-left img {
-  width: 650px;
-}
-.picture-right {
+.left {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px 80px 80px 42px;
-  max-width: 50%;
+  gap: 20px;
+  max-width: 60%;
 }
-.picture-right h2 {
-  margin-bottom: 20px;
+.pciture-between-text {
+  background-image: url(/VisitKolding/Billedmateriale/mediegrafiker.jpg);
+  height: 270px;
+  background-size: cover;
+  background-position: top;
 }
-.picture-with-text-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.right {
+  max-width: 30%;
+  padding: 0px 0px 0px 150px;
 }
-.pictures-With-Text {
-  padding: 0 15.8%;
-  margin-bottom: 40px;
-}
-.reversed-text {
-  padding: 0px 80px 80px 42px;
+.right img {
+  width: 500px;
 }

@@ -125,36 +125,33 @@ address {
 .picture-wrapper {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
 }
 .reverse {
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
+  margin-top: -4px;
 }
 .picture-left img {
-  width: 650px;
+  width: 951.5px;
 }
 .picture-right {
-  display: flex;
   flex-direction: column;
+  background-color: black;
+  color: white;
+  display: flex;
   justify-content: center;
-  align-items: flex-start;
-  padding: 0px 80px 80px 42px;
-  max-width: 50%;
+  padding-left: 170px;
 }
 .picture-right h2 {
   margin-bottom: 20px;
+}
+.picture-right p {
+  max-width: 70%;
+  text-align: start;
 }
 .picture-with-text-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.pictures-With-Text {
-  padding: 0 15.8%;
-  margin-bottom: 40px;
-}
-.reversed-text {
-  padding: 0px 80px 80px 42px;
 }
