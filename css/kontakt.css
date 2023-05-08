@@ -169,3 +169,15 @@ button {
 form {
   margin-bottom: 50px;
 }
+.error-message {
+  display: none;
+  border: 2px solid red;
+  padding: 10px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: red;
+}
+.error-message.show {
+  display: block;
+  max-width: 100%;
+}

@@ -18,7 +18,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="../css/kontakt.css" />
-    <script src="/" defer></script>
+    <script src="../JavaScript/kontakt.js" defer></script>
   </head>
   <body>
   <?php
@@ -26,7 +26,8 @@ require('../Temp/nav.html');
 require('../Temp/header.html');
 ?>
     <div class="content">
-      <form action="post">
+    <form id="formm" action="/" method="get" onsubmit="return(validate())">
+    <div class="error-message"><h3>Fix Following Errors:</h3></div>
         <div class="form-wrapper">
           <div class="inputs">
             <input
