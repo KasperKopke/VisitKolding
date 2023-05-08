@@ -17,43 +17,15 @@
       src="https://kit.fontawesome.com/472910ecc6.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="/css/historiev2.css" />
+    <link rel="stylesheet" href="../css/historiev2.css?v=1" />
     <script src="/" defer></script>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><img src="/assets/vistilogo.png" alt="" /></li>
-        <li><a href="">Oplevelser</a></li>
-        <li><a href="">Overnatning</a></li>
-        <li><a href="">Mad & Drikke</a></li>
-        <li><a href="">Events</a></li>
-        <li><a href="">Planlæg din tur</a></li>
-        <li>
-          <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-        </li>
-      </ul>
-    </nav>
-    <header>
-      <div class="header-top">
-        <div class="historie-text">
-          <h2>Historiske bygninger</h2>
-        </div>
-      </div>
-      <div class="header-bottom">
-        <p>
-          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-          posuere cubilia curae; Etiam tristique nibh urna, vitae vehicula enim
-          mattis tristique. Vivamus sed turpis posuere, viverra arcu eget,
-          dapibus justo. Praesent varius egestas tortor. Quisque pellentesque
-          turpis eu lorem varius, eu commodo orci tempus. Proin quis sodales
-          nibh, ac aliquam mi. Vivamus eget augue nulla. Cras purus orci,
-          porttitor eu egestas eget, placerat sit amet purus. Proin id odio
-          commodo, tincidunt ante sit amet, porta arcu. Etiam varius nisl sit
-          amet magna aliquet, non pulvinar sapien vehicula.
-        </p>
-      </div>
-    </header>
+  <?php
+require('../Temp/nav.html');
+require('../Temp/header.html');
+?>
+   
     <div class="content">
       <div class="column-section">
         <p>
@@ -158,68 +130,12 @@
           </p>
         </div>
         <div class="right">
-          <img src="/VisitKolding/Billedmateriale/torv.jpg" alt="" />
+          <img src="../VisitKolding/Billedmateriale/torv.jpg" alt="" />
         </div>
       </div>
     </div>
-    <footer>
-      <div class="darkgraysection">
-        <h2>Følg os på</h2>
-        <ul>
-          <li>
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="lightgraysection">
-        <div class="lightgrayleft">
-          <h2>VisitKolding</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        <div class="lightgrayright">
-          <ul class="lightgrayui">
-            <h4>Nyttige Links</h4>
-            <li>Link1</li>
-            <li>Link2</li>
-            <li>Link3</li>
-            <li>Link4</li>
-          </ul>
-          <ul class="lightgrayui">
-            <h4>Nyttige Links</h4>
-            <li>Link1</li>
-            <li>Link2</li>
-            <li>Link3</li>
-            <li>Link4</li>
-          </ul>
-          <ul class="lightgrayui">
-            <h4>Nyttige Links</h4>
-            <li>Link1</li>
-            <li>Link2</li>
-            <li>Link3</li>
-            <li>Link4</li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-    <address>
-      <ul>
-        <li>&copy 2021 VisitKolding All Rights Reserved.</li>
-        <li>Privacy policy</li>
-        <li>Terms og Service</li>
-      </ul>
-    </address>
+    <?php
+require('../Temp/footeraddress.html');
+?>
   </body>
 </html>

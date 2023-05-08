@@ -97,7 +97,7 @@ address {
 
 .header-top {
   height: 500px;
-  background-image: url(/VisitKolding/Billedmateriale/mølle.jpg);
+  background-image: url(../VisitKolding/Billedmateriale/mølle.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -143,7 +143,7 @@ address {
   max-width: 70%;
 }
 .pciture-between-text {
-  background-image: url(/VisitKolding/Billedmateriale/mediegrafiker.jpg);
+  background-image: url(../VisitKolding/Billedmateriale/mediegrafiker.jpg);
   height: 270px;
   background-size: cover;
   background-position: top;

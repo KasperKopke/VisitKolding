@@ -133,56 +133,56 @@ address {
 }
 .box1 {
   grid-area: box1;
-  background-image: url(/VisitKolding/Billedmateriale/bibliotek.jpg);
+  background-image: url(../VisitKolding/Billedmateriale/bibliotek.jpg);
   background-size: cover;
 }
 .box2 {
   grid-area: box2;
-  background-image: url(/VisitKolding/Billedmateriale/trafik.jpg);
+  background-image: url(../VisitKolding/Billedmateriale/trafik.jpg);
   background-size: cover;
 }
 .box3 {
   grid-area: box3;
-  background-image: url(/VisitKolding/Billedmateriale/legeplads.jpeg);
+  background-image: url(../VisitKolding/Billedmateriale/legeplads.jpeg);
   background-position: center;
   background-size: cover;
 }
 .box4 {
   grid-area: box4;
-  background-image: url(/VisitKolding/Billedmateriale/grafiskbygning.jpg);
+  background-image: url(../VisitKolding/Billedmateriale/grafiskbygning.jpg);
   background-position: center;
   background-size: cover;
 }
 .box5 {
   grid-area: box5;
-  background-image: url(/VisitKolding/Billedmateriale/madmarked.jpg);
+  background-image: url(../VisitKolding/Billedmateriale/madmarked.jpg);
   background-size: cover;
 }
 .box6 {
   grid-area: box6;
-  background-image: url(/VisitKolding/Billedmateriale/natteliv2.jpg);
+  background-image: url(../VisitKolding/Billedmateriale/natteliv2.jpg);
   background-size: cover;
 }
 .box7 {
   grid-area: box7;
-  background-image: url(/VisitKolding/Billedmateriale/torv.jpg);
+  background-image: url(../VisitKolding/Billedmateriale/torv.jpg);
   background-position: center;
   background-size: cover;
 }
 .box8 {
   grid-area: box8;
-  background-image: url(/VisitKolding/Billedmateriale/mediegrafiker.jpg);
+  background-image: url(../VisitKolding/Billedmateriale/mediegrafiker.jpg);
   background-size: cover;
 }
 .box9 {
   grid-area: box9;
-  background-image: url(/VisitKolding/Billedmateriale/natteliv_livemusik.jpg);
+  background-image: url(../VisitKolding/Billedmateriale/natteliv_livemusik.jpg);
   background-position: center;
   background-size: cover;
 }
 .box10 {
   grid-area: box10;
-  background-image: url(/VisitKolding/Billedmateriale/kunst2.jpg);
+  background-image: url(../VisitKolding/Billedmateriale/kunst2.jpg);
   background-size: cover;
 }
 
