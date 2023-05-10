@@ -1,7 +1,12 @@
+
+
 <header>
   <div class="header-top">
     <div class="historie-text">
-      <h2>Historiske bygninger</h2>
+      
+      <h2><?php
+echo $title;
+?></h2>
     </div>
   </div>
   <div class="header-bottom">

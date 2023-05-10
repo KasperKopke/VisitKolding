@@ -25,11 +25,14 @@ nav ul li a {
   color: black;
   font-size: 18px;
 }
+.hoverme:hover {
+  border-bottom: 2px solid green;
+}
 nav ul li:first-child {
   margin-right: auto;
   margin-left: 145px;
 }
-nav ul li:nth-child(6) {
+nav ul li:nth-child(7) {
   margin-right: 110px;
 }
 nav ul li:last-child {
@@ -42,8 +45,14 @@ nav ul li img {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: #6c6c6c;
+  background-color: #e51c1c;
   padding: 50px;
+}
+.lightgraysection {
+  display: flex;
+  background-color: #ff0000;
+  padding: 50px;
+  align-items: center;
 }
 .darkgraysection ul {
   display: flex;
@@ -70,12 +79,7 @@ nav ul li img {
   display: flex;
   gap: 80px;
 }
-.lightgraysection {
-  display: flex;
-  background-color: #d0d0d0;
-  padding: 50px;
-  align-items: center;
-}
+
 .lightgrayleft p {
   max-width: 40%;
 }
@@ -86,7 +90,6 @@ address ul {
   gap: 50px;
   padding: 25px;
 }
-
 address ul li:first-child {
   margin-right: auto;
 }
@@ -98,7 +101,7 @@ address {
   margin: 20px 0px;
   padding: 0 8%;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -256,4 +259,215 @@ address {
 }
 .maps iframe {
   width: 100%;
+}
+
+.fa-bars,
+.fa-x {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul li a {
+    font-size: 14px;
+  }
+
+  nav ul li:first-child {
+    margin-left: 0px;
+  }
+  nav ul li:nth-child(7) {
+    margin-right: 0px;
+  }
+  nav ul {
+    padding: 12px 9px 16px 0px;
+  }
+  nav ul li {
+    text-align: center;
+  }
+  .gallery {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+    grid-template-areas:
+      "box1 box1 box3 box3"
+      "box2 box2 box4 box4 "
+      "box5 box5 box6 box6 "
+      "box7 box7 box8 box8 "
+      "box9 box9 box10 box10"
+      "box9 box9 box10 box10";
+  }
+  .smallertext {
+    font-size: 13px;
+  }
+  .boxText {
+    font-size: 13px;
+  }
+  .box6 {
+    background-position: center;
+  }
+  .begivenheder article {
+    flex-direction: column;
+  }
+  .kommende-begivenheder h2 {
+    text-align: center;
+  }
+  .begivenheder-img img {
+    width: 436px;
+  }
+  .date {
+    text-align: center;
+  }
+  .udforsk-left {
+    max-width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 6%;
+  }
+  .udforsk-right {
+    align-items: center;
+    justify-content: center;
+  }
+  .udforks-kolding {
+    flex-direction: column;
+  }
+  nav ul li img {
+    width: 200px;
+  }
+  .boxText {
+    display: inline;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.39);
+  }
+  .boxText {
+    visibility: visible;
+    opacity: 1;
+    font-size: 12px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    position: fixed;
+    z-index: 998;
+    height: 100vh;
+    left: -100%;
+    transition: all 0.2s ease-in-out;
+  }
+  .fa-bars,
+  .fa-x {
+    display: inline;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 999;
+  }
+  body.active .fa-bars {
+    display: none;
+  }
+  .fa-x {
+    display: none;
+  }
+  body.active .fa-x {
+    display: inline;
+  }
+  body.active nav {
+    left: 0%;
+    transition: all 0.2s ease-in-out;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li a {
+    font-size: 30px;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul li:first-child {
+    margin-left: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    width: 100%;
+  }
+  .historie-text {
+    padding: 30px 112px 30px 20px;
+    left: 58px;
+  }
+  .header-bottom p {
+    max-width: 76%;
+    font-size: 14px;
+  }
+  .lightgraysection {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .lightgrayleft p {
+    max-width: 100%;
+  }
+  .lightgrayright {
+    text-align: center;
+  }
+  .darkgraysection {
+    flex-direction: column;
+  }
+  .darkgraysection h2 {
+    margin-right: 0px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    grid-template-areas:
+      "box1"
+      "box2"
+      "box3"
+      "box4"
+      "box5"
+      "box6"
+      "box7"
+      "box8"
+      "box9"
+      "box10";
+  }
+  .boxes {
+    aspect-ratio: 1/1;
+  }
+  .boxText {
+    display: inline;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.39);
+  }
+  .boxText {
+    visibility: visible;
+    opacity: 1;
+  }
+  .begivenheder-text {
+    max-width: 100%;
+    font-size: 17px;
+  }
+  .udforsk-left p {
+    max-width: 100%;
+  }
 }
