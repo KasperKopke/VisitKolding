@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --lightgray: #ff0000;
+  --darkgray: #e51c1c;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -11,33 +15,32 @@ nav {
   justify-content: center;
   align-items: center;
   background-color: #fafafa;
+  padding: 0px 10%;
 }
 nav ul {
   display: flex;
   flex: 1;
-  padding: 10px 30px 10px 30px;
-  gap: 20px;
-
+  padding: 20px 0px 20px 0px;
+  gap: 33px;
   list-style-type: none;
   align-items: center;
 }
 nav ul li a {
   text-decoration: none;
   color: black;
-  font-size: 18px;
+  font-size: 20px;
 }
 .hoverme:hover {
   border-bottom: 2px solid green;
 }
 nav ul li:first-child {
   margin-right: auto;
-  margin-left: 145px;
 }
 nav ul li:nth-child(7) {
   margin-right: 110px;
 }
 nav ul li:last-child {
-  margin-right: auto;
+  margin-right: 30px;
 }
 nav ul li img {
   width: 260px;
@@ -46,14 +49,15 @@ nav ul li img {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: #e51c1c;
-  padding: 50px;
+  background-color: var(--darkgray);
+  padding: 50px 10%;
 }
 .lightgraysection {
   display: flex;
-  background-color: #ff0000;
-  padding: 50px;
+  background-color: var(--lightgray);
+  padding: 50px 10%;
   align-items: center;
+  color: white;
 }
 .darkgraysection ul {
   display: flex;
@@ -63,7 +67,7 @@ nav ul li img {
 .darkgraysection h2 {
   color: white;
   margin-right: 120px;
-  font-size: 25px;
+  font-size: 22.5px;
 }
 .darkgraysection ul li a {
   font-size: 40px;
@@ -85,13 +89,16 @@ nav ul li img {
   max-width: 40%;
 }
 
+.lightgrayleft h2 {
+  font-size: 22.5px;
+}
+
 address ul {
   display: flex;
   list-style-type: none;
   gap: 50px;
-  padding: 25px;
+  padding: 25px 10%;
 }
-
 address ul li:first-child {
   margin-right: auto;
 }
@@ -112,10 +119,11 @@ address {
   bottom: 0;
   left: 170px;
   background-color: white;
-  padding: 30px 430px 30px 20px;
+  padding: 30px 0px 30px 20px;
+  width: 430px;
 }
 .historie-text h2 {
-  font-size: 35px;
+  font-size: 22.5px;
 }
 .header-bottom {
   display: flex;
@@ -125,7 +133,7 @@ address {
 }
 .header-bottom p {
   max-width: 50%;
-  font-size: 22px;
+  font-size: 18px;
 }
 .picture-wrapper {
   display: flex;

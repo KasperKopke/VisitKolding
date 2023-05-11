@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/472910ecc6.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="../css/historiev2.css?v=7" />
+  <link rel="stylesheet" href="../css/historiev2.css?v=787" />
   <script src="../JavaScript/burgermenu.js"></script>
 </head>
 

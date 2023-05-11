@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/472910ecc6.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="../css/kontakt.css?v=45646" />
+  <link rel="stylesheet" href="../css/kontakt.css?v=456456" />
   <script src="../JavaScript/kontakt.js" defer></script>
   <script src="../JavaScript/burgermenu.js"></script>
 </head>

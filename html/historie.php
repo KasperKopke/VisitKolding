@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/472910ecc6.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="../css/histoie.css?v=9" />
+  <link rel="stylesheet" href="../css/histoie.css?v=888" />
   <script src="../JavaScript/burgermenu.js"></script>
 </head>
 
@@ -57,7 +57,7 @@
               ac aliquam mi. Vivamus eget augue nulla. Cras purus orci,
               porttitor eu egestas eget, placerat sit amet purus. Proin id
               odio commodo, tincidunt ante sit amet, porta arcu. Etiam varius
-              nisl sit amet magna aliquet, non pulvinar sapien vehicula./p>
+              nisl sit amet magna aliquet, non pulvinar sapien vehicula.
             </p>
           </div>
         </div>
@@ -92,7 +92,7 @@
               ac aliquam mi. Vivamus eget augue nulla. Cras purus orci,
               porttitor eu egestas eget, placerat sit amet purus. Proin id
               odio commodo, tincidunt ante sit amet, porta arcu. Etiam varius
-              nisl sit amet magna aliquet, non pulvinar sapien vehicula./p>
+              nisl sit amet magna aliquet, non pulvinar sapien vehicula.
             </p>
           </div>
         </div>
@@ -127,7 +127,7 @@
               ac aliquam mi. Vivamus eget augue nulla. Cras purus orci,
               porttitor eu egestas eget, placerat sit amet purus. Proin id
               odio commodo, tincidunt ante sit amet, porta arcu. Etiam varius
-              nisl sit amet magna aliquet, non pulvinar sapien vehicula./p>
+              nisl sit amet magna aliquet, non pulvinar sapien vehicula.
             </p>
           </div>
         </div>

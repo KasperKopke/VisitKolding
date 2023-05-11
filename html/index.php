@@ -11,9 +11,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/472910ecc6.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="../css/style.css?v=55" />
-  <script src="../JavaScript/index.js" defer></script>
+  <link rel="stylesheet" href="../css/style.css?v=985" />
   <script src="../JavaScript/burgermenu.js"></script>
+  <script src="../JavaScript/test.js"></script>
 </head>
 
 <body>
