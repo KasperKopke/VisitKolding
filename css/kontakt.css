@@ -135,14 +135,15 @@ address {
   max-width: 50%;
   font-size: 18px;
 }
-.form-wrapper {
-  display: flex;
-  gap: 50px;
-}
+
 .content {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.form-wrapper {
+  display: flex;
+  gap: 50px;
 }
 .inputs {
   display: flex;
